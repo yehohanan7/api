@@ -65,7 +65,8 @@ app.get('/', (req, res) => {
   `);
 });
 app.get('/data', (req, res) => {
-    res.json({ content: 'some content' });
+    console.log('Received request');
+    res.json({ content: 'some content extra' });
 });
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
