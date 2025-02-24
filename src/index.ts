@@ -17,7 +17,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `https://api-linux.onrender.com`,
+        url: `https://api-d33i.onrender.com`,
         description: 'Development server',
       },
     ],
